@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body style="margin:0;background:black;text-align:center;">
+
+<video id="v" width="100%" autoplay loop muted>
+<source src="video5296347038550627320.mp4" type="video/mp4">
+</video>
+
+<br><br>
+
+
+<script>
+var v=document.getElementById("v");
+
+function play(){v.play();}
+function pause(){v.pause();}
+function sound(){v.muted=false;}
+
+document.body.addEventListener("click", function(){
+v.muted=false;
+});
+</script>
+
+</body>
+</html>
